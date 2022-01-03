@@ -1024,19 +1024,6 @@ $EndComp
 Connection ~ 2450 4650
 Connection ~ 2050 4900
 $Comp
-L device:LED DB661
-U 1 1 51D9840C
-P 9400 2200
-F 0 "DB661" H 9400 2300 50  0000 C CNN
-F 1 "LED" H 9400 2100 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 9400 2200 60  0001 C CNN
-F 3 "" H 9400 2200 60  0001 C CNN
-	1    9400 2200
-	1    0    0    -1  
-$EndComp
-Connection ~ 9600 1950
-Connection ~ 9200 2200
-$Comp
 L device:LED DB681
 U 1 1 51D988E8
 P 9400 3750
@@ -1110,8 +1097,6 @@ Wire Wire Line
 	8650 1950 8650 2850
 Wire Wire Line
 	9050 1550 9600 1550
-Wire Wire Line
-	9200 1950 9200 2200
 Wire Wire Line
 	9600 1550 9900 1550
 Wire Wire Line
@@ -1307,10 +1292,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 4900 2050 5550
 Wire Wire Line
-	9600 1950 9600 2200
-Wire Wire Line
-	9200 2200 9200 2850
-Wire Wire Line
 	9600 3500 9600 3750
 Wire Wire Line
 	9600 3750 9600 4000
@@ -1322,4 +1303,6 @@ Wire Wire Line
 	7000 4650 7000 6250
 Wire Wire Line
 	5200 5150 7950 5150
+Wire Wire Line
+	9200 1950 9200 2850
 $EndSCHEMATC
