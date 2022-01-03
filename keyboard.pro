@@ -1,6 +1,6 @@
-update=01/01/2022 22:11:26
+update=03/01/2022 22:23:19
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 [cvpcb]
