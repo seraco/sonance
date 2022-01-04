@@ -465,17 +465,6 @@ F 3 "" H 2250 4650 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED DB09
-U 1 1 5190088E
-P 2800 4650
-F 0 "DB09" H 2800 4750 50  0000 C CNN
-F 1 "LED" H 2800 4550 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 2800 4650 60  0001 C CNN
-F 3 "" H 2800 4650 60  0001 C CNN
-	1    2800 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:LED DB14
 U 1 1 51900895
 P 3350 4650
@@ -756,8 +745,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 4250 2450 4650
 Wire Wire Line
-	3000 4250 3000 4650
-Wire Wire Line
 	3550 4250 3550 4650
 Wire Wire Line
 	4100 4250 4100 4650
@@ -865,8 +852,6 @@ Connection ~ 9200 2850
 Connection ~ 9600 2450
 Connection ~ 2050 4650
 Connection ~ 2450 4250
-Connection ~ 2600 4650
-Connection ~ 3000 4250
 Connection ~ 3150 4650
 Connection ~ 3550 4250
 Connection ~ 3700 4650
@@ -1011,19 +996,6 @@ lcol14
 Text Notes 8800 4700 0    60   ~ 0
 Fn
 $Comp
-L device:LED DB041
-U 1 1 51D98243
-P 2250 4900
-F 0 "DB041" H 2250 5000 50  0000 C CNN
-F 1 "LED" H 2250 4800 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 2250 4900 60  0001 C CNN
-F 3 "" H 2250 4900 60  0001 C CNN
-	1    2250 4900
-	1    0    0    -1  
-$EndComp
-Connection ~ 2450 4650
-Connection ~ 2050 4900
-$Comp
 L device:LED DB681
 U 1 1 51D988E8
 P 9400 3750
@@ -1104,8 +1076,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 2450 3000 2450
 Wire Wire Line
-	2600 2850 2600 4650
-Wire Wire Line
 	3000 2450 4100 2450
 Wire Wire Line
 	3700 2850 3700 4650
@@ -1151,14 +1121,6 @@ Wire Wire Line
 	9200 2850 9200 3500
 Wire Wire Line
 	9600 2450 9900 2450
-Wire Wire Line
-	2050 4650 2050 4900
-Wire Wire Line
-	2450 4250 3000 4250
-Wire Wire Line
-	2600 4650 2600 5550
-Wire Wire Line
-	3000 4250 3550 4250
 Wire Wire Line
 	3150 4650 3150 5550
 Wire Wire Line
@@ -1288,10 +1250,6 @@ Wire Wire Line
 Wire Wire Line
 	9600 4250 9900 4250
 Wire Wire Line
-	2450 4650 2450 4900
-Wire Wire Line
-	2050 4900 2050 5550
-Wire Wire Line
 	9600 3500 9600 3750
 Wire Wire Line
 	9600 3750 9600 4000
@@ -1305,4 +1263,10 @@ Wire Wire Line
 	5200 5150 7950 5150
 Wire Wire Line
 	9200 1950 9200 2850
+Wire Wire Line
+	2600 2850 2600 5550
+Wire Wire Line
+	2450 4250 3550 4250
+Wire Wire Line
+	2050 4650 2050 5550
 $EndSCHEMATC

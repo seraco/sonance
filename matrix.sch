@@ -443,17 +443,6 @@ F 3 "" H 11750 5550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mx1a-simple:MX1A S09
-U 1 1 5040DEBD
-P 4050 7050
-F 0 "S09" H 3900 7300 60  0000 C CNN
-F 1 "MX1A" H 4050 7150 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 4050 7050 60  0001 C CNN
-F 3 "" H 4050 7050 60  0001 C CNN
-	1    4050 7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L mx1a-simple:MX1A S14
 U 1 1 5040DEC3
 P 4750 7050
@@ -773,17 +762,6 @@ F 3 "" H 6850 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mx1a-simple:MX1A S041
-U 1 1 50410564
-P 3350 7350
-F 0 "S041" H 3200 7600 60  0000 C CNN
-F 1 "MX1A" H 3350 7450 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 3350 7350 60  0001 C CNN
-F 3 "" H 3350 7350 60  0001 C CNN
-	1    3350 7350
-	1    0    0    -1  
-$EndComp
-$Comp
 L mx1a-simple:MX1A S64
 U 1 1 5040DEFF
 P 11750 6600
@@ -1050,21 +1028,6 @@ F 7 "1N4148-0805" H 3350 3950 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:DIODE D04
-U 1 1 506B1C3D
-P 3350 7350
-F 0 "D04" H 3200 7300 40  0000 C CNN
-F 1 "1N4148" H 3250 7350 40  0000 C CNN
-F 2 "0805:0805D" H 3350 7350 60  0001 C CNN
-F 3 "" H 3350 7350 60  0001 C CNN
-F 4 "DC Components" H 3350 4750 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 3350 4750 60  0001 C CNN "Product"
-F 6 "TME" H 3350 4750 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 3350 4750 60  0001 C CNN "Supplier Symbol"
-	1    3350 7350
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:DIODE D07
 U 1 1 506B1C46
 P 4050 4550
@@ -1122,21 +1085,6 @@ F 5 "CD4148WS(0805C)" H 3650 4350 60  0001 C CNN "Product"
 F 6 "TME" H 3650 4350 60  0001 C CNN "Supplier"
 F 7 "1N4148-0805" H 3650 4350 60  0001 C CNN "Supplier Symbol"
 	1    4750 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:DIODE D09
-U 1 1 506B428A
-P 4050 7050
-F 0 "D09" H 3900 7000 40  0000 C CNN
-F 1 "1N4148" H 3950 7050 40  0000 C CNN
-F 2 "0805:0805D" H 4050 7050 60  0001 C CNN
-F 3 "" H 4050 7050 60  0001 C CNN
-F 4 "DC Components" H 3500 4750 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 3500 4750 60  0001 C CNN "Product"
-F 6 "TME" H 3500 4750 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 3500 4750 60  0001 C CNN "Supplier Symbol"
-	1    4050 7050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2092,10 +2040,6 @@ Text Notes 11550 6300 0    60   ~ 0
 iso #
 Text Notes 12200 6450 0    60   ~ 0
 enter
-Text Notes 3150 7650 0    60   ~ 0
-lshift
-Text Notes 3850 7650 0    60   ~ 0
-iso \
 Text Notes 4550 7650 0    60   ~ 0
 Z
 Text Notes 5250 7650 0    60   ~ 0
@@ -2178,10 +2122,7 @@ Connection ~ 11550 6650
 Connection ~ 10150 6650
 Connection ~ 6650 6650
 Connection ~ 4550 6650
-Connection ~ 3850 6650
 Connection ~ 3150 6650
-Wire Wire Line
-	1800 6650 3100 6650
 Connection ~ 3150 5150
 Connection ~ 3850 5150
 Connection ~ 4550 5150
@@ -2243,7 +2184,6 @@ Wire Wire Line
 	11300 1400 11300 3450
 Wire Wire Line
 	12000 1400 12000 3450
-Connection ~ 3100 6650
 Wire Wire Line
 	11500 6650 11500 6950
 Wire Wire Line
@@ -2317,10 +2257,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 4400 3550 4550
 Wire Wire Line
-	3150 7350 3150 7450
-Wire Wire Line
-	3150 7450 3600 7450
-Wire Wire Line
 	3850 4550 3850 4650
 Wire Wire Line
 	3850 4650 4300 4650
@@ -2344,12 +2280,6 @@ Wire Wire Line
 	4550 5650 5000 5650
 Wire Wire Line
 	4950 5550 4950 5400
-Wire Wire Line
-	3850 7050 3850 7150
-Wire Wire Line
-	3850 7150 4300 7150
-Wire Wire Line
-	4250 7050 4250 6900
 Wire Wire Line
 	4550 7050 4550 7150
 Wire Wire Line
@@ -2697,8 +2627,6 @@ Connection ~ 3600 6100
 Connection ~ 4300 5650
 Connection ~ 5000 5650
 Connection ~ 5000 7150
-Connection ~ 4300 7150
-Connection ~ 3600 7450
 Connection ~ 3600 9100
 Connection ~ 4300 9250
 Connection ~ 5000 9100
@@ -2750,13 +2678,6 @@ Connection ~ 10600 7150
 Connection ~ 10600 9100
 Connection ~ 9900 7150
 Connection ~ 9200 7150
-Wire Wire Line
-	3100 6650 3100 6950
-Wire Wire Line
-	3100 6950 3150 6950
-Wire Wire Line
-	3550 6900 3550 7200
-Connection ~ 3550 7200
 Wire Wire Line
 	12650 5400 12650 5700
 Connection ~ 12650 5700
@@ -2834,10 +2755,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 6650 5250 6650
 Wire Wire Line
-	3850 6650 4550 6650
-Wire Wire Line
-	3150 6650 3850 6650
-Wire Wire Line
 	3150 5150 3850 5150
 Wire Wire Line
 	3850 5150 4550 5150
@@ -2885,8 +2802,6 @@ Wire Wire Line
 	3150 2950 3850 2950
 Wire Wire Line
 	11250 8700 11250 9150
-Wire Wire Line
-	3100 6650 3150 6650
 Wire Wire Line
 	11500 6650 11550 6650
 Wire Wire Line
@@ -2968,17 +2883,9 @@ Wire Wire Line
 Wire Wire Line
 	3600 4650 3600 6100
 Wire Wire Line
-	3600 6100 3600 7450
-Wire Wire Line
-	4300 5650 4300 7150
-Wire Wire Line
 	5000 5650 5000 7150
 Wire Wire Line
 	5000 7150 5000 9100
-Wire Wire Line
-	4300 7150 4300 9250
-Wire Wire Line
-	3600 7450 3600 9100
 Wire Wire Line
 	3600 9100 3600 10000
 Wire Wire Line
@@ -3080,8 +2987,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 7150 9200 10000
 Wire Wire Line
-	3550 7200 3550 7350
-Wire Wire Line
 	12650 5700 12650 6150
 Wire Wire Line
 	11950 7200 11950 7350
@@ -3130,4 +3035,38 @@ Wire Wire Line
 Connection ~ 12700 3450
 Wire Wire Line
 	12700 3450 12700 4650
+Wire Wire Line
+	3150 6650 4550 6650
+Wire Wire Line
+	4300 5650 4300 9250
+Wire Wire Line
+	3600 7450 3600 9100
+Wire Wire Line
+	3600 6100 3600 7450
+Connection ~ 3600 7450
+Wire Wire Line
+	3150 7450 3600 7450
+Wire Wire Line
+	3150 7350 3150 7450
+Text Notes 3150 7650 0    60   ~ 0
+lshift
+$Comp
+L device:DIODE D04
+U 1 1 506B1C3D
+P 3350 7350
+F 0 "D04" H 3200 7300 40  0000 C CNN
+F 1 "1N4148" H 3250 7350 40  0000 C CNN
+F 2 "0805:0805D" H 3350 7350 60  0001 C CNN
+F 3 "" H 3350 7350 60  0001 C CNN
+F 4 "DC Components" H 3350 4750 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 3350 4750 60  0001 C CNN "Product"
+F 6 "TME" H 3350 4750 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 3350 4750 60  0001 C CNN "Supplier Symbol"
+	1    3350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 6900 3550 7350
+Wire Wire Line
+	1800 6650 3150 6650
 $EndSCHEMATC
