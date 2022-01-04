@@ -619,28 +619,6 @@ F 3 "" H 5000 6050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED DB101
-U 1 1 51C065B4
-P 2800 5800
-F 0 "DB101" H 2800 5900 50  0000 C CNN
-F 1 "LED" H 2800 5700 50  0000 C CNN
-F 2 "" H 2800 5800 60  0001 C CNN
-F 3 "" H 2800 5800 60  0001 C CNN
-	1    2800 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:LED DB102
-U 1 1 51C065BA
-P 2800 6050
-F 0 "DB102" H 2800 6150 50  0000 C CNN
-F 1 "LED" H 2800 5950 50  0000 C CNN
-F 2 "" H 2800 6050 60  0001 C CNN
-F 3 "" H 2800 6050 60  0001 C CNN
-	1    2800 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L device:LED DB151
 U 1 1 51C06955
 P 3350 5800
@@ -903,10 +881,6 @@ Connection ~ 5200 5550
 Connection ~ 5200 5800
 Connection ~ 4800 5800
 Connection ~ 4800 6050
-Connection ~ 3000 5550
-Connection ~ 3000 5800
-Connection ~ 2600 5800
-Connection ~ 2600 6050
 Connection ~ 3150 5800
 Connection ~ 3550 5550
 Text Notes 3250 2800 0    60   ~ 0
@@ -1189,8 +1163,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 5150 3000 5150
 Wire Wire Line
-	2600 5550 2600 5800
-Wire Wire Line
 	3000 5150 3550 5150
 Wire Wire Line
 	3150 5550 3150 5800
@@ -1214,14 +1186,6 @@ Wire Wire Line
 	4800 5800 4800 6050
 Wire Wire Line
 	4800 6050 4800 6250
-Wire Wire Line
-	3000 5550 3000 5800
-Wire Wire Line
-	3000 5800 3000 6050
-Wire Wire Line
-	2600 5800 2600 6050
-Wire Wire Line
-	2600 6050 2600 6250
 Wire Wire Line
 	3150 5800 3150 6250
 Wire Wire Line
@@ -1252,4 +1216,6 @@ Wire Wire Line
 	2050 4650 2050 5550
 Wire Wire Line
 	2050 5550 2050 6250
+Wire Wire Line
+	2600 5550 2600 6250
 $EndSCHEMATC
