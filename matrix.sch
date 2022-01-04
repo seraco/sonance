@@ -799,39 +799,6 @@ Text Notes 12200 2450 0    120  ~ 0
 col14
 Text Notes 8000 2450 0    120  ~ 0
 col8
-$Comp
-L mx1a-simple:MX1A S031
-U 1 1 5042A9E4
-P 3300 5450
-F 0 "S031" H 3150 5700 60  0000 C CNN
-F 1 "MX1A" H 3300 5550 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 3300 5450 60  0001 C CNN
-F 3 "" H 3300 5450 60  0001 C CNN
-	1    3300 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L device:LED DC1
-U 1 1 5042BB59
-P 14800 1850
-F 0 "DC1" H 14800 1950 50  0000 C CNN
-F 1 "LED" H 14800 1750 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 14800 1850 60  0001 C CNN
-F 3 "" H 14800 1850 60  0001 C CNN
-	1    14800 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L device:LED DC2
-U 1 1 5042BEB0
-P 15100 1850
-F 0 "DC2" H 15100 1950 50  0000 C CNN
-F 1 "LED" H 15100 1750 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 15100 1850 60  0001 C CNN
-F 3 "" H 15100 1850 60  0001 C CNN
-	1    15100 1850
-	0    1    1    0   
-$EndComp
 Text HLabel 1800 2950 0    60   3State ~ 0
 row1
 Text HLabel 1800 4150 0    60   Input ~ 0
@@ -870,30 +837,6 @@ Text HLabel 12000 1400 1    60   3State ~ 0
 col13
 Text HLabel 12700 1400 1    60   3State ~ 0
 col14
-$Comp
-L power1:VCC #PWR031
-U 1 1 5043970C
-P 14800 1400
-F 0 "#PWR031" H 14800 1500 30  0001 C CNN
-F 1 "VCC" H 14800 1500 30  0000 C CNN
-F 2 "" H 14800 1400 60  0001 C CNN
-F 3 "" H 14800 1400 60  0001 C CNN
-	1    14800 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:R R4
-U 1 1 5043A0D0
-P 14800 2550
-F 0 "R4" V 14880 2550 50  0000 C CNN
-F 1 "300" V 14800 2550 50  0000 C CNN
-F 2 "" H 14800 2550 60  0001 C CNN
-F 3 "" H 14800 2550 60  0001 C CNN
-	1    14800 2550
-	1    0    0    -1  
-$EndComp
-Text HLabel 14800 3200 3    60   Input ~ 0
-CAPS_LED
 $Comp
 L mx1a-simple:MX1A S41
 U 1 1 5040DDC7
@@ -1867,28 +1810,17 @@ $EndComp
 $Comp
 L device:DIODE D03
 U 1 1 506B5DE9
-P 3350 6000
-F 0 "D03" H 3200 5950 40  0000 C CNN
-F 1 "1N4148" H 3250 6000 40  0000 C CNN
-F 2 "0805:0805D" H 3350 6000 60  0001 C CNN
-F 3 "" H 3350 6000 60  0001 C CNN
-F 4 "DC Components" H 3350 4350 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 3350 4350 60  0001 C CNN "Product"
-F 6 "TME" H 3350 4350 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 3350 4350 60  0001 C CNN "Supplier Symbol"
-	1    3350 6000
+P 3350 5550
+F 0 "D03" H 3200 5500 40  0000 C CNN
+F 1 "1N4148" H 3250 5550 40  0000 C CNN
+F 2 "0805:0805D" H 3350 5550 60  0001 C CNN
+F 3 "" H 3350 5550 60  0001 C CNN
+F 4 "DC Components" H 3350 3900 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 3350 3900 60  0001 C CNN "Product"
+F 6 "TME" H 3350 3900 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 3350 3900 60  0001 C CNN "Supplier Symbol"
+	1    3350 5550
 	1    0    0    -1  
-$EndComp
-$Comp
-L device:LED DC3
-U 1 1 506E072F
-P 15400 1850
-F 0 "DC3" H 15400 1950 50  0000 C CNN
-F 1 "LED" H 15400 1750 50  0000 C CNN
-F 2 "" H 15400 1850 60  0001 C CNN
-F 3 "" H 15400 1850 60  0001 C CNN
-	1    15400 1850
-	0    1    1    0   
 $EndComp
 $Comp
 L mx1a-simple:MX1A S682
@@ -2107,8 +2039,6 @@ Wire Wire Line
 	11950 8400 11950 8850
 Connection ~ 11250 8700
 Wire Wire Line
-	1800 5150 3100 5150
-Wire Wire Line
 	5000 1400 5000 3450
 Wire Wire Line
 	5700 1400 5700 3450
@@ -2151,23 +2081,6 @@ Wire Wire Line
 	12650 8850 12600 8850
 Wire Wire Line
 	7050 9200 7000 9200
-Wire Wire Line
-	3100 5150 3100 5600
-Connection ~ 3100 5150
-Wire Wire Line
-	3550 5400 3550 5850
-Wire Wire Line
-	3550 5850 3500 5850
-Wire Wire Line
-	14800 1400 14800 1650
-Wire Wire Line
-	14800 1650 15100 1650
-Wire Wire Line
-	14800 2050 15100 2050
-Wire Wire Line
-	14800 2050 14800 2300
-Wire Wire Line
-	14800 2800 14800 3200
 Wire Wire Line
 	12200 6650 12200 7100
 Connection ~ 12200 6650
@@ -2547,16 +2460,15 @@ Connection ~ 10550 8850
 Connection ~ 11250 9150
 Connection ~ 7050 9200
 Wire Wire Line
-	3150 6000 3150 6100
+	3150 5550 3150 5650
 Wire Wire Line
-	3150 6100 3600 6100
+	3150 5650 3600 5650
 Connection ~ 3600 3450
 Connection ~ 4300 3450
 Connection ~ 5000 3450
 Connection ~ 5000 4650
 Connection ~ 4300 4650
 Connection ~ 3600 4650
-Connection ~ 3600 6100
 Connection ~ 4300 5650
 Connection ~ 5000 5650
 Connection ~ 5000 7150
@@ -2614,12 +2526,9 @@ Wire Wire Line
 	12650 5400 12650 5700
 Connection ~ 12650 5700
 Connection ~ 11950 7200
-Connection ~ 3550 5850
 Connection ~ 9450 5150
 Connection ~ 9450 4150
 Connection ~ 9450 2950
-Connection ~ 15100 1650
-Connection ~ 15100 2050
 Wire Wire Line
 	12250 6300 12250 6200
 Connection ~ 12200 5450
@@ -2728,8 +2637,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 8150 6650 8150
 Wire Wire Line
-	3100 5150 3150 5150
-Wire Wire Line
 	12200 6650 12250 6650
 Wire Wire Line
 	5250 2950 5950 2950
@@ -2794,7 +2701,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 4650 4300 5650
 Wire Wire Line
-	3600 4650 3600 6100
+	3600 4650 3600 5650
 Wire Wire Line
 	5000 5650 5000 7150
 Wire Wire Line
@@ -2902,17 +2809,11 @@ Wire Wire Line
 Wire Wire Line
 	11950 7200 11950 7350
 Wire Wire Line
-	3550 5850 3550 6000
-Wire Wire Line
 	9450 5150 10150 5150
 Wire Wire Line
 	9450 4150 10150 4150
 Wire Wire Line
 	9450 2950 10150 2950
-Wire Wire Line
-	15100 1650 15400 1650
-Wire Wire Line
-	15100 2050 15400 2050
 Wire Wire Line
 	12200 5450 12200 5900
 Wire Wire Line
@@ -2944,8 +2845,6 @@ Wire Wire Line
 	4300 5650 4300 9100
 Wire Wire Line
 	3600 7450 3600 9100
-Wire Wire Line
-	3600 6100 3600 7450
 Connection ~ 3600 7450
 Wire Wire Line
 	3150 7450 3600 7450
@@ -2984,7 +2883,35 @@ Connection ~ 4300 9100
 Wire Wire Line
 	4300 9100 4300 10000
 Wire Wire Line
-	3850 8150 4550 8150
+	4950 8850 4950 9000
 Wire Wire Line
-	4950 8400 4950 9000
+	4950 8400 4950 8850
+Connection ~ 4950 8850
+Wire Wire Line
+	4950 8850 4900 8850
+Wire Wire Line
+	3850 8150 4500 8150
+Wire Wire Line
+	4500 8150 4550 8150
+Connection ~ 4500 8150
+Wire Wire Line
+	4500 8150 4500 8600
+$Comp
+L mx1a-simple:MX1A S151
+U 1 1 5040F14F
+P 4700 9000
+F 0 "S151" H 4550 9250 60  0000 C CNN
+F 1 "MX1A" H 4700 9100 60  0000 C CNN
+F 2 "mx1a:MX1A_no3d" H 4700 9000 60  0001 C CNN
+F 3 "" H 4700 9000 60  0001 C CNN
+	1    4700 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5150 3150 5150
+Wire Wire Line
+	3550 5400 3550 5550
+Connection ~ 3600 5650
+Wire Wire Line
+	3600 5650 3600 7450
 $EndSCHEMATC
