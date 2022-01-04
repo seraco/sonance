@@ -674,17 +674,6 @@ F 3 "" H 11050 9300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mx1a-simple:MX1A S151
-U 1 1 5040F14F
-P 4700 9000
-F 0 "S151" H 4550 9250 60  0000 C CNN
-F 1 "MX1A" H 4700 9100 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 4700 9000 60  0001 C CNN
-F 3 "" H 4700 9000 60  0001 C CNN
-	1    4700 9000
-	1    0    0    -1  
-$EndComp
-$Comp
 L mx1a-simple:MX1A S6512
 U 1 1 5040F1A3
 P 11750 8550
@@ -2051,9 +2040,6 @@ Wire Wire Line
 	4300 1400 4300 3450
 Wire Wire Line
 	3600 1400 3600 3450
-Connection ~ 4500 8150
-Wire Wire Line
-	4500 8150 4500 8600
 Connection ~ 10100 8150
 Wire Wire Line
 	10100 8150 10100 8600
@@ -2157,8 +2143,6 @@ Connection ~ 12200 5150
 Wire Wire Line
 	6600 8150 6600 8500
 Connection ~ 6600 8150
-Wire Wire Line
-	4950 8850 4900 8850
 Wire Wire Line
 	10550 8850 10500 8850
 Wire Wire Line
@@ -2311,8 +2295,6 @@ Connection ~ 7350 6650
 Connection ~ 8050 6650
 Connection ~ 8750 6650
 Connection ~ 9450 6650
-Wire Wire Line
-	4950 8400 4950 8850
 Wire Wire Line
 	7800 1400 7800 3450
 Wire Wire Line
@@ -2553,7 +2535,6 @@ Wire Wire Line
 	3850 9100 4300 9100
 Wire Wire Line
 	4550 9100 5000 9100
-Connection ~ 4950 8850
 Wire Wire Line
 	4550 9000 4550 9100
 Wire Wire Line
@@ -2661,8 +2642,6 @@ Wire Wire Line
 Connection ~ 12650 7350
 Connection ~ 12200 7100
 Wire Wire Line
-	4500 8150 4550 8150
-Wire Wire Line
 	10100 8150 10150 8150
 Wire Wire Line
 	12200 8150 12250 8150
@@ -2682,8 +2661,6 @@ Wire Wire Line
 	10150 8150 10800 8150
 Wire Wire Line
 	4550 8150 6600 8150
-Wire Wire Line
-	3850 8150 4500 8150
 Wire Wire Line
 	12250 6650 13250 6650
 Wire Wire Line
@@ -2796,8 +2773,6 @@ Wire Wire Line
 	8750 6650 9450 6650
 Wire Wire Line
 	9450 6650 10150 6650
-Wire Wire Line
-	4950 8850 4950 9000
 Wire Wire Line
 	12650 8850 12650 9000
 Wire Wire Line
@@ -3008,4 +2983,8 @@ Wire Wire Line
 Connection ~ 4300 9100
 Wire Wire Line
 	4300 9100 4300 10000
+Wire Wire Line
+	3850 8150 4550 8150
+Wire Wire Line
+	4950 8400 4950 9000
 $EndSCHEMATC
