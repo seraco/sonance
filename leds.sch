@@ -596,28 +596,6 @@ F 3 "" H 7750 5800 60  0001 C CNN
 	1    7750 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L device:LED DB301
-U 1 1 51C0300D
-P 5000 5800
-F 0 "DB301" H 5000 5900 50  0000 C CNN
-F 1 "LED" H 5000 5700 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 5000 5800 60  0001 C CNN
-F 3 "" H 5000 5800 60  0001 C CNN
-	1    5000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:LED DB302
-U 1 1 51C03013
-P 5000 6050
-F 0 "DB302" H 5000 6150 50  0000 C CNN
-F 1 "LED" H 5000 5950 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 5000 6050 60  0001 C CNN
-F 3 "" H 5000 6050 60  0001 C CNN
-	1    5000 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 1550 4650 1950
 Wire Wire Line
@@ -866,10 +844,6 @@ Wire Wire Line
 Connection ~ 4800 5550
 Connection ~ 7950 5550
 Connection ~ 7550 5800
-Connection ~ 5200 5550
-Connection ~ 5200 5800
-Connection ~ 4800 5800
-Connection ~ 4800 6050
 Text Notes 3250 2800 0    60   ~ 0
 wasd\ncluster
 Text Notes 3250 3450 0    60   ~ 0
@@ -1158,19 +1132,9 @@ Wire Wire Line
 Wire Wire Line
 	7950 5150 9900 5150
 Wire Wire Line
-	4800 5550 4800 5800
-Wire Wire Line
 	7950 5550 7950 5800
 Wire Wire Line
 	7550 5800 7550 6250
-Wire Wire Line
-	5200 5550 5200 5800
-Wire Wire Line
-	5200 5800 5200 6050
-Wire Wire Line
-	4800 5800 4800 6050
-Wire Wire Line
-	4800 6050 4800 6250
 Wire Wire Line
 	9200 4650 9200 6250
 Wire Wire Line
@@ -1201,4 +1165,6 @@ Wire Wire Line
 	2600 5550 2600 6250
 Wire Wire Line
 	3150 5550 3150 6250
+Wire Wire Line
+	4800 5550 4800 6250
 $EndSCHEMATC

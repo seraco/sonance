@@ -696,28 +696,6 @@ F 3 "" H 12450 8550 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mx1a-simple:MX1A S301
-U 1 1 5040FAEC
-P 6850 8900
-F 0 "S301" H 6700 9150 60  0000 C CNN
-F 1 "MX1A" H 6850 9000 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 6850 8900 60  0001 C CNN
-F 3 "" H 6850 8900 60  0001 C CNN
-	1    6850 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L mx1a-simple:MX1A S302
-U 1 1 5040FAF4
-P 6850 8550
-F 0 "S302" H 6700 8800 60  0000 C CNN
-F 1 "MX1A" H 6850 8650 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 6850 8550 60  0001 C CNN
-F 3 "" H 6850 8550 60  0001 C CNN
-	1    6850 8550
-	1    0    0    -1  
-$EndComp
-$Comp
 L mx1a-simple:MX1A S64
 U 1 1 5040DEFF
 P 11750 6600
@@ -777,12 +755,12 @@ col7
 $Comp
 L mx1a-simple:MX1A S30
 U 1 1 5040DF35
-P 6800 9350
-F 0 "S30" H 6650 9600 60  0000 C CNN
-F 1 "MX1A" H 6800 9450 60  0000 C CNN
-F 2 "mx1a:MX1A" H 6800 9350 60  0001 C CNN
-F 3 "" H 6800 9350 60  0001 C CNN
-	1    6800 9350
+P 6850 8550
+F 0 "S30" H 6700 8800 60  0000 C CNN
+F 1 "MX1A" H 6850 8650 60  0000 C CNN
+F 2 "mx1a:MX1A" H 6850 8550 60  0001 C CNN
+F 3 "" H 6850 8550 60  0001 C CNN
+	1    6850 8550
 	1    0    0    -1  
 $EndComp
 Text Notes 8700 2450 0    120  ~ 0
@@ -1795,16 +1773,16 @@ $EndComp
 $Comp
 L device:DIODE D30
 U 1 1 506B5D8C
-P 6850 9350
-F 0 "D30" H 6700 9300 40  0000 C CNN
-F 1 "1N4148" H 6750 9350 40  0000 C CNN
-F 2 "0805:0805D" H 6850 9350 60  0001 C CNN
-F 3 "" H 6850 9350 60  0001 C CNN
-F 4 "DC Components" H 4100 5050 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 4100 5050 60  0001 C CNN "Product"
-F 6 "TME" H 4100 5050 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 4100 5050 60  0001 C CNN "Supplier Symbol"
-	1    6850 9350
+P 6850 9000
+F 0 "D30" H 6700 8950 40  0000 C CNN
+F 1 "1N4148" H 6750 9000 40  0000 C CNN
+F 2 "0805:0805D" H 6850 9000 60  0001 C CNN
+F 3 "" H 6850 9000 60  0001 C CNN
+F 4 "DC Components" H 4100 4700 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 4100 4700 60  0001 C CNN "Product"
+F 6 "TME" H 4100 4700 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 4100 4700 60  0001 C CNN "Supplier Symbol"
+	1    6850 9000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1958,8 +1936,6 @@ Text Notes 3850 9600 0    60   ~ 0
 mod2
 Text Notes 4550 9600 0    60   ~ 0
 mod3
-Text Notes 6600 9600 0    60   ~ 0
-space
 Text Notes 10100 9600 0    60   ~ 0
 mod4
 Text Notes 10850 9600 0    60   ~ 0
@@ -2032,8 +2008,6 @@ Wire Wire Line
 Wire Wire Line
 	11250 8400 11250 8700
 Wire Wire Line
-	7050 8400 7050 8750
-Wire Wire Line
 	12650 8400 12650 8850
 Wire Wire Line
 	11950 8400 11950 8850
@@ -2071,16 +2045,11 @@ Wire Wire Line
 	12200 5450 12250 5450
 Connection ~ 12200 5150
 Wire Wire Line
-	6600 8150 6600 8500
-Connection ~ 6600 8150
-Wire Wire Line
 	10550 8850 10500 8850
 Wire Wire Line
 	11950 8850 11900 8850
 Wire Wire Line
 	12650 8850 12600 8850
-Wire Wire Line
-	7050 9200 7000 9200
 Wire Wire Line
 	12200 6650 12200 7100
 Connection ~ 12200 6650
@@ -2194,7 +2163,6 @@ Connection ~ 5950 2950
 Connection ~ 5950 4150
 Connection ~ 5950 5150
 Connection ~ 5950 6650
-Connection ~ 6650 8150
 Connection ~ 8750 2950
 Connection ~ 8050 2950
 Connection ~ 7350 2950
@@ -2450,15 +2418,10 @@ Wire Wire Line
 	4550 9100 5000 9100
 Wire Wire Line
 	4550 9000 4550 9100
-Wire Wire Line
-	6650 9350 6650 9450
-Wire Wire Line
-	6650 9450 7100 9450
 Connection ~ 12650 8850
 Connection ~ 11950 8850
 Connection ~ 10550 8850
 Connection ~ 11250 9150
-Connection ~ 7050 9200
 Wire Wire Line
 	3150 5550 3150 5650
 Wire Wire Line
@@ -2494,7 +2457,6 @@ Connection ~ 7800 7150
 Connection ~ 7100 7150
 Connection ~ 6400 7150
 Connection ~ 5700 7150
-Connection ~ 7100 9450
 Connection ~ 9200 3450
 Connection ~ 9900 3450
 Connection ~ 10600 3450
@@ -2542,10 +2504,6 @@ Wire Wire Line
 	10800 8900 10850 8900
 Wire Wire Line
 	12250 3450 12250 3350
-Connection ~ 7050 8750
-Wire Wire Line
-	6650 8500 6600 8500
-Connection ~ 6600 8500
 Wire Wire Line
 	12600 7350 12650 7350
 Connection ~ 12650 7350
@@ -2568,8 +2526,6 @@ Wire Wire Line
 	10850 8150 11500 8150
 Wire Wire Line
 	10150 8150 10800 8150
-Wire Wire Line
-	4550 8150 6600 8150
 Wire Wire Line
 	12250 6650 13250 6650
 Wire Wire Line
@@ -2635,8 +2591,6 @@ Wire Wire Line
 Wire Wire Line
 	12200 5150 12250 5150
 Wire Wire Line
-	6600 8150 6650 8150
-Wire Wire Line
 	12200 6650 12250 6650
 Wire Wire Line
 	5250 2950 5950 2950
@@ -2688,8 +2642,6 @@ Wire Wire Line
 	10550 8850 10550 9000
 Wire Wire Line
 	11250 9150 11250 9300
-Wire Wire Line
-	7050 9200 7050 9350
 Wire Wire Line
 	3600 3450 3600 4650
 Wire Wire Line
@@ -2745,13 +2697,9 @@ Wire Wire Line
 Wire Wire Line
 	7800 7150 7800 10000
 Wire Wire Line
-	7100 7150 7100 9450
-Wire Wire Line
 	6400 7150 6400 10000
 Wire Wire Line
 	5700 7150 5700 10000
-Wire Wire Line
-	7100 9450 7100 10000
 Wire Wire Line
 	9200 3450 9200 4650
 Wire Wire Line
@@ -2821,15 +2769,9 @@ Wire Wire Line
 Wire Wire Line
 	12650 7500 12650 7650
 Wire Wire Line
-	7050 8750 7050 9200
-Wire Wire Line
-	6600 8500 6600 8950
-Wire Wire Line
 	12650 7350 12650 7500
 Wire Wire Line
 	12200 7100 12200 7250
-Wire Wire Line
-	6650 8150 10100 8150
 Wire Wire Line
 	9900 7150 9900 10000
 Wire Wire Line
@@ -2914,4 +2856,24 @@ Wire Wire Line
 Connection ~ 3600 5650
 Wire Wire Line
 	3600 5650 3600 7450
+Wire Wire Line
+	7050 8400 7050 9000
+Wire Wire Line
+	6650 8150 6650 8400
+Wire Wire Line
+	7100 7150 7100 9100
+Connection ~ 6650 8150
+Wire Wire Line
+	6650 8150 10100 8150
+Wire Wire Line
+	4550 8150 6650 8150
+Wire Wire Line
+	6650 9000 6650 9100
+Wire Wire Line
+	6650 9100 7100 9100
+Connection ~ 7100 9100
+Wire Wire Line
+	7100 9100 7100 10000
+Text Notes 6650 9600 0    60   ~ 0
+space
 $EndSCHEMATC
