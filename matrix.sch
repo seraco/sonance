@@ -641,17 +641,6 @@ F 3 "" H 11750 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mx1a-simple:MX1A S681
-U 1 1 5040E5A6
-P 12450 5850
-F 0 "S681" H 12300 6100 60  0000 C CNN
-F 1 "MX1A" H 12450 5950 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 12450 5850 60  0001 C CNN
-F 3 "" H 12450 5850 60  0001 C CNN
-	1    12450 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L mx1a-simple:MX1A S552
 U 1 1 5040F08D
 P 10300 9000
@@ -1533,16 +1522,16 @@ $EndComp
 $Comp
 L device:DIODE D68
 U 1 1 506B5A16
-P 12450 6200
-F 0 "D68" H 12300 6150 40  0000 C CNN
-F 1 "1N4148" H 12350 6200 40  0000 C CNN
-F 2 "0805:0805D" H 12450 6200 60  0001 C CNN
-F 3 "" H 12450 6200 60  0001 C CNN
-F 4 "DC Components" H 5300 4700 60  0001 C CNN "Vendor"
-F 5 "CD4148WS(0805C)" H 5300 4700 60  0001 C CNN "Product"
-F 6 "TME" H 5300 4700 60  0001 C CNN "Supplier"
-F 7 "1N4148-0805" H 5300 4700 60  0001 C CNN "Supplier Symbol"
-	1    12450 6200
+P 12450 5550
+F 0 "D68" H 12300 5500 40  0000 C CNN
+F 1 "1N4148" H 12350 5550 40  0000 C CNN
+F 2 "0805:0805D" H 12450 5550 60  0001 C CNN
+F 3 "" H 12450 5550 60  0001 C CNN
+F 4 "DC Components" H 5300 4050 60  0001 C CNN "Vendor"
+F 5 "CD4148WS(0805C)" H 5300 4050 60  0001 C CNN "Product"
+F 6 "TME" H 5300 4050 60  0001 C CNN "Supplier"
+F 7 "1N4148-0805" H 5300 4050 60  0001 C CNN "Supplier Symbol"
+	1    12450 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1801,17 +1790,6 @@ F 7 "1N4148-0805" H 3350 3900 60  0001 C CNN "Supplier Symbol"
 	1    0    0    -1  
 $EndComp
 $Comp
-L mx1a-simple:MX1A S682
-U 1 1 50871329
-P 12400 5750
-F 0 "S682" H 12250 6000 60  0000 C CNN
-F 1 "MX1A" H 12400 5850 60  0000 C CNN
-F 2 "mx1a:MX1A_no3d" H 12400 5750 60  0001 C CNN
-F 3 "" H 12400 5750 60  0001 C CNN
-	1    12400 5750
-	-1   0    0    1   
-$EndComp
-$Comp
 L mx1a-simple:MX1A S601
 U 1 1 5040F098
 P 11050 8850
@@ -1904,7 +1882,7 @@ Text Notes 10850 6300 0    60   ~ 0
 '
 Text Notes 11550 6300 0    60   ~ 0
 iso #
-Text Notes 12200 6450 0    60   ~ 0
+Text Notes 12250 6300 0    60   ~ 0
 enter
 Text Notes 4550 7650 0    60   ~ 0
 Z
@@ -2039,11 +2017,6 @@ Wire Wire Line
 Connection ~ 11500 6650
 Wire Wire Line
 	11950 7000 11950 7200
-Wire Wire Line
-	12200 5150 12200 5450
-Wire Wire Line
-	12200 5450 12250 5450
-Connection ~ 12200 5150
 Wire Wire Line
 	10550 8850 10500 8850
 Wire Wire Line
@@ -2337,7 +2310,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 9100 10600 9100
 Wire Wire Line
-	12250 6300 12700 6300
+	12250 5650 12700 5650
 Wire Wire Line
 	11550 5550 11550 5650
 Wire Wire Line
@@ -2473,7 +2446,6 @@ Connection ~ 9900 5650
 Connection ~ 10600 5650
 Connection ~ 11300 5650
 Connection ~ 12000 5650
-Connection ~ 12700 6300
 Connection ~ 12700 9100
 Connection ~ 12700 7750
 Connection ~ 12000 7450
@@ -2484,19 +2456,10 @@ Connection ~ 10600 7150
 Connection ~ 10600 9100
 Connection ~ 9900 7150
 Connection ~ 9200 7150
-Wire Wire Line
-	12650 5400 12650 5700
-Connection ~ 12650 5700
 Connection ~ 11950 7200
 Connection ~ 9450 5150
 Connection ~ 9450 4150
 Connection ~ 9450 2950
-Wire Wire Line
-	12250 6300 12250 6200
-Connection ~ 12200 5450
-Wire Wire Line
-	12600 6150 12650 6150
-Connection ~ 12650 6150
 Connection ~ 12650 7500
 Wire Wire Line
 	11550 6750 11550 6650
@@ -2551,8 +2514,6 @@ Wire Wire Line
 Wire Wire Line
 	10850 5150 11550 5150
 Wire Wire Line
-	11550 5150 12200 5150
-Wire Wire Line
 	12250 5150 13250 5150
 Wire Wire Line
 	12250 4150 13250 4150
@@ -2588,8 +2549,6 @@ Wire Wire Line
 	11250 8700 11250 9150
 Wire Wire Line
 	11500 6650 11550 6650
-Wire Wire Line
-	12200 5150 12250 5150
 Wire Wire Line
 	12200 6650 12250 6650
 Wire Wire Line
@@ -2711,7 +2670,7 @@ Wire Wire Line
 Wire Wire Line
 	12000 3450 12000 4650
 Wire Wire Line
-	12700 4650 12700 6300
+	12700 4650 12700 5650
 Wire Wire Line
 	12000 4650 12000 5650
 Wire Wire Line
@@ -2733,8 +2692,6 @@ Wire Wire Line
 Wire Wire Line
 	12000 5650 12000 7450
 Wire Wire Line
-	12700 6300 12700 7750
-Wire Wire Line
 	12700 9100 12700 10000
 Wire Wire Line
 	12700 7750 12700 9100
@@ -2753,8 +2710,6 @@ Wire Wire Line
 Wire Wire Line
 	9200 7150 9200 10000
 Wire Wire Line
-	12650 5700 12650 6150
-Wire Wire Line
 	11950 7200 11950 7350
 Wire Wire Line
 	9450 5150 10150 5150
@@ -2762,10 +2717,6 @@ Wire Wire Line
 	9450 4150 10150 4150
 Wire Wire Line
 	9450 2950 10150 2950
-Wire Wire Line
-	12200 5450 12200 5900
-Wire Wire Line
-	12650 6150 12650 6200
 Wire Wire Line
 	12650 7500 12650 7650
 Wire Wire Line
@@ -2876,4 +2827,13 @@ Wire Wire Line
 	7100 9100 7100 10000
 Text Notes 6650 9600 0    60   ~ 0
 space
+Wire Wire Line
+	12650 5400 12650 5550
+Wire Wire Line
+	11550 5150 12250 5150
+Connection ~ 12700 5650
+Wire Wire Line
+	12700 5650 12700 7750
+Wire Wire Line
+	12250 5550 12250 5650
 $EndSCHEMATC

@@ -917,32 +917,6 @@ Text HLabel 9200 1050 1    60   Input ~ 0
 lcol14
 Text Notes 8800 4700 0    60   ~ 0
 Fn
-$Comp
-L device:LED DB681
-U 1 1 51D988E8
-P 9400 3750
-F 0 "DB681" H 9400 3850 50  0000 C CNN
-F 1 "LED" H 9400 3650 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 9400 3750 60  0001 C CNN
-F 3 "" H 9400 3750 60  0001 C CNN
-	1    9400 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:LED DB682
-U 1 1 51D988EE
-P 9400 4000
-F 0 "DB682" H 9400 4100 50  0000 C CNN
-F 1 "LED" H 9400 3900 50  0000 C CNN
-F 2 "mx1a:MX1A-led_no3d" H 9400 4000 60  0001 C CNN
-F 3 "" H 9400 4000 60  0001 C CNN
-	1    9400 4000
-	1    0    0    -1  
-$EndComp
-Connection ~ 9600 3500
-Connection ~ 9600 3750
-Connection ~ 9200 3750
-Connection ~ 9200 4000
 Wire Wire Line
 	2600 1950 2600 2850
 Wire Wire Line
@@ -1118,8 +1092,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 3100 9600 3100
 Wire Wire Line
-	9200 3500 9200 3750
-Wire Wire Line
 	9600 3100 9900 3100
 Wire Wire Line
 	2450 5150 3000 5150
@@ -1140,14 +1112,6 @@ Wire Wire Line
 Wire Wire Line
 	9600 4250 9900 4250
 Wire Wire Line
-	9600 3500 9600 3750
-Wire Wire Line
-	9600 3750 9600 4000
-Wire Wire Line
-	9200 3750 9200 4000
-Wire Wire Line
-	9200 4000 9200 4650
-Wire Wire Line
 	7000 4650 7000 6250
 Wire Wire Line
 	5200 5150 7950 5150
@@ -1167,4 +1131,6 @@ Wire Wire Line
 	3150 5550 3150 6250
 Wire Wire Line
 	4800 5550 4800 6250
+Wire Wire Line
+	9200 3500 9200 4650
 $EndSCHEMATC
