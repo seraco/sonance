@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6002)
-    (drawings 323)
+    (drawings 325)
     (tracks 2026)
     (zones 0)
     (modules 190)
@@ -18,7 +18,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal hide)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
@@ -30,9 +30,9 @@
     (39 F.Mask user hide)
     (40 Dwgs.User user)
     (41 Cmts.User user hide)
-    (42 Eco1.User user)
+    (42 Eco1.User user hide)
     (43 Eco2.User user hide)
-    (44 Edge.Cuts user hide)
+    (44 Edge.Cuts user)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
@@ -8306,6 +8306,11 @@
     )
   )
 
+  (gr_line (start 345.29 64.62) (end 421.29 64.6212) (layer Edge.Cuts) (width 0.0991) (tstamp 61E0FCC2))
+  (gr_line (start 345.29 159.22) (end 421.29 159.2212) (layer Edge.Cuts) (width 0.0991) (tstamp 61E0FCC1))
+  (gr_arc (start 421.29 66.6212) (end 421.29 64.6212) (angle 90) (layer Edge.Cuts) (width 0.0991) (tstamp 61E0FCBC))
+  (gr_arc (start 421.29 157.2212) (end 423.29 157.2212) (angle 90) (layer Edge.Cuts) (width 0.0991) (tstamp 61E0FCB9))
+  (gr_line (start 423.29 66.62) (end 423.29 157.2224) (angle 90) (layer Edge.Cuts) (width 0.0991) (tstamp 61E0FCB4))
   (gr_line (start 346.75064 140.12672) (end 403.75064 140.13434) (layer Dwgs.User) (width 0.381) (tstamp 61E0FB09))
   (gr_line (start 346.75064 83.12658) (end 422.75064 83.1342) (layer Dwgs.User) (width 0.381) (tstamp 61E0FB09))
   (gr_line (start 346.75064 102.12578) (end 403.75064 102.1334) (layer Dwgs.User) (width 0.381) (tstamp 61E0FB09))
@@ -8750,11 +8755,8 @@
   )
   (gr_arc (start 64.29 66.62) (end 62.29 66.62) (angle 90) (layer Edge.Cuts) (width 0.0991))
   (gr_arc (start 64.29 157.22) (end 64.29 159.22) (angle 90) (layer Edge.Cuts) (width 0.0991))
-  (gr_arc (start 345.29 157.22) (end 347.29 157.22) (angle 90) (layer Edge.Cuts) (width 0.0991))
-  (gr_arc (start 345.29 66.62) (end 345.29 64.62) (angle 90) (layer Edge.Cuts) (width 0.0991))
   (gr_line (start 62.29 157.2212) (end 62.29 66.6188) (angle 90) (layer Edge.Cuts) (width 0.0991))
   (gr_line (start 345.29 159.22) (end 64.29 159.22) (angle 90) (layer Edge.Cuts) (width 0.0991))
-  (gr_line (start 347.29 66.6188) (end 347.29 157.2212) (angle 90) (layer Edge.Cuts) (width 0.0991))
   (gr_line (start 64.29 64.62) (end 345.29 64.62) (angle 90) (layer Edge.Cuts) (width 0.0991))
   (gr_line (start 330.12888 214.94242) (end 330.12888 130.62966) (angle 90) (layer Eco2.User) (width 0.381))
   (gr_line (start 311.12968 209.0039) (end 311.12968 130.62966) (angle 90) (layer Eco2.User) (width 0.381))
