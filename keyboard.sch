@@ -931,4 +931,14 @@ Text Label 5850 4750 0    60   ~ 0
 col8
 Text Label 5850 4650 0    60   ~ 0
 col9
+Text Label 5850 5050 0    60   ~ 0
+col10
+Text Label 5850 3750 0    60   ~ 0
+col11
+Text Label 5850 3650 0    60   ~ 0
+col12
+Text Label 5850 3550 0    60   ~ 0
+col13
+Text Label 5850 4450 0    60   ~ 0
+col14
 $EndSCHEMATC
