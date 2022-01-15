@@ -28,7 +28,7 @@
     (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
@@ -62,8 +62,8 @@
     (mod_edge_width 0.3)
     (mod_text_size 1.524 1.524)
     (mod_text_width 0.3048)
-    (pad_size 7.00024 7.00024)
-    (pad_drill 5.00126)
+    (pad_size 9.99998 5.00126)
+    (pad_drill 7.00024)
     (pad_to_mask_clearance 0.1016)
     (pad_to_paste_clearance -0.02)
     (aux_axis_origin 62.29 64.62)
@@ -954,7 +954,7 @@
     )
   )
 
-  (module hole:PKRHSL (layer F.Cu) (tedit 56D0D47B) (tstamp 5075A72A)
+  (module hole:PKRHSL (layer F.Cu) (tedit 61E358A8) (tstamp 5075A72A)
     (at 345.8312 121.1212)
     (path switch_mx3)
     (attr virtual)
@@ -964,7 +964,7 @@
     (fp_text value VAL** (at 0.508 -4.826) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (pad 1 thru_hole oval (at 0 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers *.Cu *.Mask))
+    (pad 1 thru_hole oval (at 75.9988 0) (size 9.99998 5.00126) (drill oval 7.00024 2.49936) (layers *.Cu *.Mask))
     (model cherry_mx1.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
