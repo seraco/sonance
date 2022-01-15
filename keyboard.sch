@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "ukbdc - schematic"
-Date "17 jul 2013"
+Title "sonance"
+Date "2022"
 Rev ""
-Comp "komar"
+Comp "seraco"
 Comment1 ""
 Comment2 ""
 Comment3 ""
