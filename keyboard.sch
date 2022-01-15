@@ -486,21 +486,24 @@ F3 "row2" T L 7050 3950 60
 F4 "row3" T L 7050 4050 60 
 F5 "row4" T L 7050 4150 60 
 F6 "row5" T L 7050 4250 60 
-F7 "col1" T L 7050 4550 60 
-F8 "col2" T L 7050 4650 60 
-F9 "col3" T L 7050 4750 60 
-F10 "col4" T L 7050 4850 60 
-F11 "col5" T L 7050 4950 60 
-F12 "col6" T L 7050 5050 60 
-F13 "col7" T L 7050 5150 60 
-F14 "col8" T L 7050 5250 60 
-F15 "col9" T L 7050 5350 60 
-F16 "col10" T L 7050 5450 60 
-F17 "col11" T L 7050 5550 60 
-F18 "col12" T L 7050 5650 60 
-F19 "col13" T L 7050 5750 60 
-F20 "col14" T L 7050 5850 60 
-F21 "CAPS_LED" T L 7050 6100 60 
+F7 "col1" T L 7050 4350 60 
+F8 "col2" T L 7050 4450 60 
+F9 "col3" T L 7050 4550 60 
+F10 "col4" T L 7050 4650 60 
+F11 "col5" T L 7050 4750 60 
+F12 "col6" T L 7050 4850 60 
+F13 "col7" T L 7050 4950 60 
+F14 "col8" T L 7050 5050 60 
+F15 "col9" T L 7050 5150 60 
+F16 "col10" T L 7050 5250 60 
+F17 "col11" T L 7050 5350 60 
+F18 "col12" T L 7050 5450 60 
+F19 "col13" T L 7050 5550 60 
+F20 "col14" T L 7050 5650 60 
+F21 "col15" T L 7050 5750 60 
+F22 "col16" T L 7050 5850 60 
+F23 "col17" T L 7050 5950 60 
+F24 "col18" T L 7050 6050 60 
 $EndSheet
 Entry Wire Line
 	6100 3450 6200 3550
@@ -594,23 +597,23 @@ Entry Wire Line
 Entry Wire Line
 	6550 5150 6650 5050
 Text Label 6700 4550 0    60   ~ 0
-col1
-Text Label 6700 4650 0    60   ~ 0
-col2
-Text Label 6700 4750 0    60   ~ 0
 col3
-Text Label 6700 4850 0    60   ~ 0
+Text Label 6700 4650 0    60   ~ 0
 col4
-Text Label 6700 4950 0    60   ~ 0
+Text Label 6700 4750 0    60   ~ 0
 col5
-Text Label 6700 5050 0    60   ~ 0
+Text Label 6700 4850 0    60   ~ 0
 col6
-Text Label 6700 5150 0    60   ~ 0
+Text Label 6700 4950 0    60   ~ 0
 col7
-Text Label 6700 5250 0    60   ~ 0
+Text Label 6700 5050 0    60   ~ 0
 col8
-Text Label 6700 5350 0    60   ~ 0
+Text Label 6700 5150 0    60   ~ 0
 col9
+Text Label 6700 5250 0    60   ~ 0
+col10
+Text Label 6700 5350 0    60   ~ 0
+col11
 Entry Wire Line
 	6550 5250 6650 5150
 Entry Wire Line
@@ -618,13 +621,13 @@ Entry Wire Line
 Entry Wire Line
 	6550 5450 6650 5350
 Text Label 6700 5450 0    60   ~ 0
-col10
+col12
 Entry Wire Line
 	6550 5550 6650 5450
 Text Label 6700 5750 0    60   ~ 0
-col13
+col15
 Text Label 6700 5850 0    60   ~ 0
-col14
+col16
 Entry Wire Line
 	6550 5850 6650 5750
 Entry Wire Line
@@ -632,9 +635,9 @@ Entry Wire Line
 Entry Wire Line
 	6550 5650 6650 5550
 Text Label 6700 5550 0    60   ~ 0
-col11
+col13
 Text Label 6700 5650 0    60   ~ 0
-col12
+col14
 Entry Wire Line
 	6550 5750 6650 5650
 $Comp
@@ -909,10 +912,6 @@ Text Label 5850 3850 0    60   ~ 0
 row4
 Wire Wire Line
 	2550 1350 2550 3200
-Wire Bus Line
-	6550 2950 6550 6500
-Wire Bus Line
-	6200 3300 6200 6500
 Text Label 5850 4350 0    60   ~ 0
 col1
 Text Label 5850 5850 0    60   ~ 0
@@ -941,4 +940,40 @@ Text Label 5850 3550 0    60   ~ 0
 col13
 Text Label 5850 4450 0    60   ~ 0
 col14
+Text Label 5850 5150 0    60   ~ 0
+col18
+Text Label 5850 5250 0    60   ~ 0
+col17
+Text Label 5850 5350 0    60   ~ 0
+col16
+Text Label 5850 6150 0    60   ~ 0
+col15
+Entry Wire Line
+	6550 6050 6650 5950
+Entry Wire Line
+	6550 6150 6650 6050
+Entry Wire Line
+	6550 4550 6650 4450
+Entry Wire Line
+	6550 4450 6650 4350
+Wire Wire Line
+	6650 4350 7050 4350
+Wire Wire Line
+	6650 4450 7050 4450
+Wire Wire Line
+	6650 5950 7050 5950
+Wire Wire Line
+	6650 6050 7050 6050
+Wire Bus Line
+	6200 3300 6200 6500
+Wire Bus Line
+	6550 2950 6550 6500
+Text Label 6700 5950 0    60   ~ 0
+col17
+Text Label 6700 6050 0    60   ~ 0
+col18
+Text Label 6700 4350 0    60   ~ 0
+col1
+Text Label 6700 4450 0    60   ~ 0
+col2
 $EndSCHEMATC
