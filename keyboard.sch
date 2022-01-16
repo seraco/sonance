@@ -503,7 +503,6 @@ F20 "col14" T L 7050 5650 60
 F21 "col15" T L 7050 5750 60 
 F22 "col16" T L 7050 5850 60 
 F23 "col17" T L 7050 5950 60 
-F24 "col18" T L 7050 6050 60 
 $EndSheet
 Entry Wire Line
 	6100 3450 6200 3550
@@ -940,18 +939,12 @@ Text Label 5850 3550 0    60   ~ 0
 col13
 Text Label 5850 4450 0    60   ~ 0
 col14
-Text Label 5850 5150 0    60   ~ 0
-col18
 Text Label 5850 5250 0    60   ~ 0
-col17
-Text Label 5850 5350 0    60   ~ 0
 col16
-Text Label 5850 6150 0    60   ~ 0
+Text Label 5850 5350 0    60   ~ 0
 col15
 Entry Wire Line
 	6550 6050 6650 5950
-Entry Wire Line
-	6550 6150 6650 6050
 Entry Wire Line
 	6550 4550 6650 4450
 Entry Wire Line
@@ -962,18 +955,16 @@ Wire Wire Line
 	6650 4450 7050 4450
 Wire Wire Line
 	6650 5950 7050 5950
-Wire Wire Line
-	6650 6050 7050 6050
 Text Label 6700 5950 0    60   ~ 0
 col17
-Text Label 6700 6050 0    60   ~ 0
-col18
 Text Label 6700 4350 0    60   ~ 0
 col1
 Text Label 6700 4450 0    60   ~ 0
 col2
 Wire Bus Line
-	6200 3300 6200 6500
-Wire Bus Line
 	6550 2950 6550 6500
+Wire Bus Line
+	6200 3300 6200 6500
+Text Label 5850 5150 0    60   ~ 0
+col17
 $EndSCHEMATC
