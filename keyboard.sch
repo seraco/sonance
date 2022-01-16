@@ -940,9 +940,9 @@ col13
 Text Label 5850 4450 0    60   ~ 0
 col14
 Text Label 5850 5250 0    60   ~ 0
-col16
-Text Label 5850 5350 0    60   ~ 0
 col15
+Text Label 5850 5350 0    60   ~ 0
+col16
 Entry Wire Line
 	6550 6050 6650 5950
 Entry Wire Line
