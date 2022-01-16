@@ -964,10 +964,6 @@ Wire Wire Line
 	6650 5950 7050 5950
 Wire Wire Line
 	6650 6050 7050 6050
-Wire Bus Line
-	6200 3300 6200 6500
-Wire Bus Line
-	6550 2950 6550 6500
 Text Label 6700 5950 0    60   ~ 0
 col17
 Text Label 6700 6050 0    60   ~ 0
@@ -976,4 +972,8 @@ Text Label 6700 4350 0    60   ~ 0
 col1
 Text Label 6700 4450 0    60   ~ 0
 col2
+Wire Bus Line
+	6200 3300 6200 6500
+Wire Bus Line
+	6550 2950 6550 6500
 $EndSCHEMATC
