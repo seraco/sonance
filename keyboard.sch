@@ -19,7 +19,7 @@ U 1 1 61E8FCA2
 P 1850 5750
 F 0 "J1" H 1957 6617 50  0000 C CNN
 F 1 "USB C" H 1957 6526 50  0000 C CNN
-F 2 "" H 2000 5750 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 2000 5750 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2000 5750 50  0001 C CNN
 	1    1850 5750
 	1    0    0    -1  
